@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/chessbackground"
+    android:layout_height="match_parent"
+    tools:context="com.example.dqtech.puzzle_for_fun.Registration">
+
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:hint="User name"
+        android:textColor="#FFF5F5F7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:textColor="#FFF5F5F7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textColor="#FFF5F5F7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Confirm password"
+        android:textColor="#FFF5F5F7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Phone number"
+        android:textColor="#FFF5F5F7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="City"
+        android:textColor="#FFF5F5F7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@drawable/buttonbackground"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
