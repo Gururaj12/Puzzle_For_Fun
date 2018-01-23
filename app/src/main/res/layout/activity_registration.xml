@@ -5,65 +5,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:background="@drawable/smoke"
+    android:background="@drawable/puzzleblack"
     android:layout_height="match_parent"
     tools:context="com.example.dqtech.puzzle_for_fun.Registration">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+<ImageView
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:src="@drawable/registrationlogo"
+    android:layout_width="150dp"
+    android:layout_height="150dp" />
     <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/emptybutton"
         android:textStyle="bold"
         android:layout_marginTop="30dp"
         android:hint="User name"
+        android:id="@+id/reguser"
+        android:gravity="center"
         android:textColorHint="#FFF5F5F7"
         android:textColor="#FFF5F5F7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
 
-    <EditText
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:textColorHint="#FFF5F5F7"
-        android:hint="Email"
-        android:textColor="#FFF5F5F7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+       <EditText
+            android:layout_gravity="center"
+            android:background="@drawable/emptybutton"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:hint="Email"
+           android:id="@+id/regemail"
+            android:gravity="center"
+            android:textColorHint="#FFF5F5F7"
+            android:textColor="#FFF5F5F7"
+            android:layout_width="200dp"
+            android:layout_height="30dp" />
 
-    <EditText
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:textColorHint="#FFF5F5F7"
-        android:hint="Password"
-        android:textColor="#FFF5F5F7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <EditText
+                android:layout_gravity="center"
+                android:background="@drawable/emptybutton"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:hint="Password"
+                android:id="@+id/regpassword"
+                android:gravity="center"
+                android:textColorHint="#FFF5F5F7"
+                android:textColor="#FFF5F5F7"
+                android:layout_width="200dp"
+                android:layout_height="30dp" />
 
-    <EditText
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:textColorHint="#FFF5F5F7"
-        android:hint="Confirm password"
-        android:textColor="#FFF5F5F7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <EditText
+                android:layout_gravity="center"
+                android:background="@drawable/emptybutton"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:hint="Re-enter password"
+                android:id="@+id/regreenterpassword"
+                android:gravity="center"
+                android:textColorHint="#FFF5F5F7"
+                android:textColor="#FFF5F5F7"
+                android:layout_width="200dp"
+                android:layout_height="30dp" />
 
-    <EditText
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:textColorHint="#FFF5F5F7"
-        android:hint="Phone number"
-        android:textColor="#FFF5F5F7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <EditText
+                android:layout_gravity="center"
+                android:background="@drawable/emptybutton"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:hint="Phone nnumber"
+                android:id="@+id/regphonenumber"
+                android:gravity="center"
+                android:textColorHint="#FFF5F5F7"
+                android:textColor="#FFF5F5F7"
+                android:layout_width="200dp"
+                android:layout_height="30dp" />
 
-    <EditText
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:textColorHint="#FFF5F5F7"
-        android:hint="City"
-        android:textColor="#FFF5F5F7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <EditText
+                android:layout_gravity="center"
+                android:background="@drawable/emptybutton"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:hint="City"
+                android:id="@+id/regcity"
+                android:gravity="center"
+                android:textColorHint="#FFF5F5F7"
+                android:textColor="#FFF5F5F7"
+                android:layout_width="200dp"
+                android:layout_height="30dp" />
 
     <Button
         android:textStyle="bold"
@@ -71,8 +108,13 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:text="Register"
+        
+        android:id="@+id/regbutton"
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
