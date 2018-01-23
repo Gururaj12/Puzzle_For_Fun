@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class FlashScreen extends AppCompatActivity {
 
@@ -20,7 +21,9 @@ public class FlashScreen extends AppCompatActivity {
         Animation myanim = AnimationUtils.loadAnimation(this,R.anim.zoom);
         image.startAnimation(myanim);
 
-        final Intent i=new Intent(this,Login.class);
+        Toast.makeText(this, "Successfully done", Toast.LENGTH_SHORT).show();
+
+        //final Intent i=new Intent(this,Login.class);
         Thread timer = new Thread(){
             public void run () {
                 try {
@@ -30,7 +33,7 @@ public class FlashScreen extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    startActivity(i);
+                    //startActivity(i);
                     finish();
                 }
 
