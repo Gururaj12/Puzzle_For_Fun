@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Registration"></activity>
+        <activity android:name=".Registration" />
+        <activity android:name=".SOCRATES" />
+        <activity android:name=".Numberseries" />
+        <activity android:name=".CIFAIPC" />
+        <activity android:name=".FlashScreen" />
+        <activity android:name=".Percentage" />
+        <activity android:name=".Forest" />
+        <activity android:name=".Findword"></activity>
     </application>
 
 </manifest>
