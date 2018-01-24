@@ -16,6 +16,7 @@ public class FlashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flash_screen);
+        //iuhj8ihj
 
         image = (ImageView) findViewById(R.id.iv);
         Animation myanim = AnimationUtils.loadAnimation(this,R.anim.zoom);
