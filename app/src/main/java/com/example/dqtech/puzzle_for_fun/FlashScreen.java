@@ -21,10 +21,10 @@ public class FlashScreen extends AppCompatActivity {
         Animation myanim = AnimationUtils.loadAnimation(this,R.anim.zoom);
         image.startAnimation(myanim);
 
-        Toast.makeText(this, "Successfully done", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Open Puzzle", Toast.LENGTH_SHORT).show();
 
-        //final Intent i=new Intent(this,Login.class);
-        //hello
+        final Intent i=new Intent(this,Registration.class);
+
         Thread timer = new Thread(){
             public void run () {
                 try {
@@ -34,7 +34,7 @@ public class FlashScreen extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    //startActivity(i);
+                    startActivity(i);
                     finish();
                 }
 
