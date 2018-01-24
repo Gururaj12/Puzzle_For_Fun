@@ -16,15 +16,15 @@ public class FlashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flash_screen);
-        //iuhj8ihj
 
         image = (ImageView) findViewById(R.id.iv);
         Animation myanim = AnimationUtils.loadAnimation(this,R.anim.zoom);
         image.startAnimation(myanim);
 
-        Toast.makeText(this, "Successfully done", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Open Puzzle", Toast.LENGTH_SHORT).show();
 
-        //final Intent i=new Intent(this,Login.class);
+        final Intent i=new Intent(this,Registration.class);
+
         Thread timer = new Thread(){
             public void run () {
                 try {
@@ -34,7 +34,7 @@ public class FlashScreen extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    //startActivity(i);
+                    startActivity(i);
                     finish();
                 }
 

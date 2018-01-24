@@ -3,6 +3,7 @@
 
     <stroke
         android:width="2dp"
+<<<<<<< HEAD
         >
 
     </stroke>
@@ -12,12 +13,28 @@
         >
 
     </corners>
+=======
+        ></stroke>
+
+    <corners
+        android:radius="10dp"
+        ></corners>
+>>>>>>> origin/master
 
     <gradient
         android:startColor="#8c8989"
         android:endColor="#ffffff"
+<<<<<<< HEAD
         >
 
     </gradient>
 
 </shape>
+=======
+        ></gradient>
+
+
+
+</shape>
+
+>>>>>>> origin/master

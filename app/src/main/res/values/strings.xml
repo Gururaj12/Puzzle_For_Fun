@@ -1,35 +1,3 @@
 <resources>
     <string name="app_name">Puzzle_For_Fun</string>
-    <string name="numberseries">
-
-        <item>Which number logically follows this series: 4-6-9-6-14-6- ....</item>
-
-    </string>
-
-    <string name="socrates">
-
-        <item>Rearrange the letters of the name SOCRATES to give two other eight letter words. What will be the first letter of both words?</item>
-
-    </string>
-
-    <string name="cifaipc">
-        <item>If you rearrange the letters "CIFAIPC" you would have the name of a(n)</item>
-    </string>
-
-    <string name="economy">
-        <item>Who among the following is the founder of World Economy Forum?</item>
-    </string>
-
-    <string name="percentage">
-        <item>What is 40% of 190?</item>
-    </string>
-
-    <string name="forest">
-        <item>Forest is to tree as tree is to ?</item>
-    </string>
-
-    <string name="findword">
-        <item>6121135 is to flame as 21215120 is to ?</item>
-    </string>
-
 </resources>
