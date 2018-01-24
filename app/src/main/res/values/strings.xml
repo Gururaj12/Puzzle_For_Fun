@@ -1,7 +1,3 @@
 <resources>
     <string name="app_name">Puzzle_For_Fun</string>
-    <color name="white">#ffffffff</color>
-    <color name="black">#ff000000</color>
-    <color name="silver">#C0C0C0</color>
-    <color name="sky">#87cefa</color>
 </resources>

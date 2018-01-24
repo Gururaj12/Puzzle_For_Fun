@@ -16,18 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Registration" />
-        <activity android:name=".Gkk" />
-        <activity android:name=".Computer" />
-        <activity android:name=".second" />
-        <activity android:name=".Thrid" />
-        <activity android:name=".Fourth" />
-        <activity android:name=".Five" />
-        <activity android:name=".Six" />
-        <activity android:name=".seven" />
-        <activity android:name=".Eight" />
-        <activity android:name=".Nine" />
-        <activity android:name=".Ten"></activity>
+        <activity android:name=".Registration"></activity>
     </application>
 
 </manifest>
