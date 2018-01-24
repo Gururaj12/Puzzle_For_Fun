@@ -81,7 +81,7 @@
                 android:background="@drawable/emptybutton"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
-                android:hint="Phone nnumber"
+                android:hint="Phone number"
                 android:id="@+id/regphonenumber"
                 android:gravity="center"
                 android:textColorHint="#FFF5F5F7"
@@ -108,12 +108,10 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:text="Register"
-        
         android:id="@+id/regbutton"
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
 
         </LinearLayout>
     </ScrollView>
