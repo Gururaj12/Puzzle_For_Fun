@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/puzzleblack"
+    android:orientation="vertical"
+    tools:context="com.example.dqtech.puzzle_for_fun.Login">
+
+
+    <ImageView
+        android:src="@drawable/registrationlogo"
+        android:layout_width="100dp"
+        android:layout_marginTop="30dp"
+        android:background="#141414"
+        android:layout_gravity="center"
+        android:layout_height="100dp" />
+
+
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:background="@drawable/edittext"
+        android:padding="10dp"
+        android:id="@+id/username"
+        android:textColorHighlight="#000"
+        android:hint="Username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:textColorHint="#fff"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/edittext"
+        android:padding="10dp"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:text="login"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:textStyle="italic"
+        android:text="Forget Your Password"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:text="register"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
