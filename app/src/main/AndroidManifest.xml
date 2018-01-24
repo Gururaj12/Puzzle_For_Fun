@@ -19,13 +19,11 @@
         <activity android:name=".Login" />
         <activity android:name=".Registration" />
         <activity android:name=".Home" />
-        <activity android:name=".IQ_Test_1" />
-        <activity android:name=".IQ_Test_2" />
-        <activity android:name=".IQ_Test_3" />
-        <activity android:name=".IQ_Test_4" />
-        <activity android:name=".IQ_Test_5" />
-        <activity android:name=".IQ_Text_6" />
-        <activity android:name=".IQ_Test_7"></activity>
+        <activity android:name=".IQ_Test_1"></activity>
+        <activity android:name=".IQ_Test_2"></activity>
+        <activity android:name=".IQ_Test_3"></activity>
+        <activity android:name=".IQ_Test_4"></activity>
+        <activity android:name=".IQ_Test_5"></activity>
     </application>
 
 </manifest>
