@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="2dp"
+<<<<<<< HEAD
+        >
+
+    </stroke>
+
+    <corners
+        android:radius="10dp"
+        >
+
+    </corners>
+=======
+        ></stroke>
+
+    <corners
+        android:radius="10dp"
+        ></corners>
+>>>>>>> origin/master
+
+    <gradient
+        android:startColor="#8c8989"
+        android:endColor="#ffffff"
+<<<<<<< HEAD
+        >
+
+    </gradient>
+
+</shape>
+=======
+        ></gradient>
+
+
+
+</shape>
+
+>>>>>>> origin/master

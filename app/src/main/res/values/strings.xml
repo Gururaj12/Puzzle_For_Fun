@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">Puzzle_For_Fun</string>
+
+    <string name="test_1">
+        <item>  Which of the four is least like the other three? </item>
+    </string>
+
+    <string name="test_2">
+        <item>  Which country has the highest number of the cell phone user...?  </item>
+    </string>
+
+    <string name="test_3">
+        <item>  Which of the following is least similar to the others...?  </item>
+    </string>
+
+    <string name="test_4">
+        <item>  Marys father has 5 doughters Nana, Nene, Nini and Nono. Who is the 5th doughter...?   </item>
+    </string>
+    <string name="test_5">
+
+    <item> What color is the square...?  </item>
+</string>
+
+    <string name="test_6">
+
+    <item> Which of the following can be arranged into a 5-letter English word...?  </item>
+</string>
+
+    <string name="test_7">
+
+    <item> Find the answer that best completes the analogy...?  </item>
+</string>
+
 </resources>

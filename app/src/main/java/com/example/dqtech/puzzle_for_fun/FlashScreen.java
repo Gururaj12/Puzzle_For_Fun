@@ -12,7 +12,6 @@ public class FlashScreen extends AppCompatActivity {
 
     ImageView image;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,9 +23,8 @@ public class FlashScreen extends AppCompatActivity {
 
         Toast.makeText(this, "Successfully done", Toast.LENGTH_SHORT).show();
 
-        final Intent i=new Intent(this,Basic.class);
+        //final Intent i=new Intent(this,Login.class);
         //hello
-
         Thread timer = new Thread(){
             public void run () {
                 try {
@@ -36,7 +34,7 @@ public class FlashScreen extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    startActivity(i);
+                    //startActivity(i);
                     finish();
                 }
 

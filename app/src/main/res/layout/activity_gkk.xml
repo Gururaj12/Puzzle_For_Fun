@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.dqtech.puzzle_for_fun.Gkk">
+    <Button
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/b5"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:text="computer quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/b6"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="food quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/b7"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="sports quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/b8"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="mahabaratha quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/b9"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="india economy quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
