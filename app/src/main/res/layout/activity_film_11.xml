@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context="com.example.dqtech.puzzle_for_fun.Film_8">
+    tools:context="com.example.dqtech.puzzle_for_fun.Film_11">
 
 
     <LinearLayout
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="@string/film8"
+            android:text="@string/film11"
             android:textSize="35dp"
             android:textStyle="bold"
             android:layout_marginLeft="10dp"
@@ -29,8 +29,8 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/film8_1"
-        android:text="A League of Their Own"
+        android:id="@+id/film11_1"
+        android:text="Rocky"
         android:textSize="20dp"
         android:textAllCaps="false"
         android:textStyle="bold"
@@ -42,8 +42,8 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/film8_2"
-        android:text="Sleepless in Seattle"
+        android:id="@+id/film11_2"
+        android:text="West Side Story"
         android:textAllCaps="false"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -55,8 +55,8 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/film8_3"
-        android:text="Splash"
+        android:id="@+id/film11_3"
+        android:text="Chariots of Fire"
         android:textAllCaps="false"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -68,8 +68,8 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/film8_4"
-        android:text="Big"
+        android:id="@+id/film11_4"
+        android:text="On the Waterfront"
         android:textAllCaps="false"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -79,6 +79,5 @@
         android:layout_gravity="center"
         android:layout_width="250dp"
         android:layout_height="wrap_content" />
-
 
 </LinearLayout>

@@ -59,4 +59,32 @@
         <item>Forest is to tree as tree is to ?</item>
     </string>
 
+    <string name="film8">
+        <item>For which comedy did Tom Hanks receive his first Oscar nomination?</item>
+    </string>
+
+    <string name="film9">
+        <item>What is the only film based on a TV series to get a Best Picture nomination?</item>
+    </string>
+
+    <string name="film10">
+        <item>Oscar-winner Marisa Tomei’s My Cousin Vinny character was an “expert” witness in what area?</item>
+    </string>
+
+    <string name="film11">
+        <item>Which Best Picture winner features the line, “I coulda been a contender”?</item>
+    </string>
+
+    <string name="film12">
+        <item>Who attended the 1956 Academy Awards less than a month before becoming a princess?</item>
+    </string>
+
+    <string name="film13">
+        <item>David Niven described the 1974 Oscar streaker as a man who was doing what?</item>
+    </string>
+
+    <string name="film14">
+        <item>For which film did nine-year-old Justin Henry receive an Oscar nomination?</item>
+    </string>
+
 </resources>
