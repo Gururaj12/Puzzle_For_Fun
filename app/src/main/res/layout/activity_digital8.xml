@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/ba"
+    android:background="@drawable/d"
     tools:context="com.example.dqtech.puzzle_for_fun.Computer">
     <TextView
         android:layout_marginRight="10dp"
@@ -15,39 +15,44 @@
         android:layout_marginTop="100dp"
         android:textStyle="bold"
         android:textSize="30dp"
-        android:text="5. The first mechanical computer designed by Charles Babbage was called ?"
+        android:text="8. Which format requires fewer conductors?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="70dp"
-        android:text="Abacus"
+        android:text="Parallel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="70dp"
-        android:text="Analytical Engine"
+        android:text="Serial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
-        android:text="Calculator"
+
+        android:text="Both are the same"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
-        android:text="Processor"
+        android:text="Cannot tell"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
@@ -59,5 +64,6 @@
         android:layout_marginTop="20dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content" />
+
 
 </LinearLayout>

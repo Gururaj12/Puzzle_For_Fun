@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Puzzle_For_Fun</string>
+    <string name="test_1"></string>
+    <string name="test_2"></string>
+    <string name="test_3"></string>
+    <string name="test_4"></string>
+    <string name="test_5"></string>
+    <string name="test_6"></string>
+    <string name="test_7"></string>
+    <color name="sky">#87cefa</color>
 </resources>
