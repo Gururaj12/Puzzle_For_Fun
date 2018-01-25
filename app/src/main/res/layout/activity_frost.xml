@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#f6f0e5"
+    android:background="#AAC0BC"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.dqtech.puzzle_for_fun.Frost">
 
    <ScrollView
@@ -16,37 +20,56 @@
            android:layout_width="match_parent"
            android:layout_height="match_parent">
 
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
 
+               <android.support.v7.widget.CardView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:cardCornerRadius="8dp"
+                   android:elevation="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:padding="5dp">
 
-
-    <android.support.v7.widget.CardView
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
+               <ImageView
                 android:src="@drawable/frost1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <ImageView
+               </android.support.v7.widget.CardView>
+
+               <android.support.v7.widget.CardView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:cardCornerRadius="8dp"
+                   android:elevation="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:padding="5dp">
+
+
+               <ImageView
                 android:src="@drawable/frost2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-        </LinearLayout>
+               </android.support.v7.widget.CardView>
+
+
+           </LinearLayout>
 
         <LinearLayout
-            android:layout_marginTop="140dp"
-            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                android:elevation="10dp"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp">
 
 
             <ImageView
@@ -54,15 +77,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                android:elevation="10dp"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp">
+
+
+
             <ImageView
                 android:src="@drawable/frost4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
+            </android.support.v7.widget.CardView>
+
+
 
         </LinearLayout>
 
-    </android.support.v7.widget.CardView>
 
     <LinearLayout
         android:layout_gravity="center"
@@ -172,7 +209,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-
         <Button
             android:textSize="20dp"
             android:textStyle="bold"
@@ -194,13 +230,10 @@
             android:textSize="20dp"
             android:textStyle="bold"
             android:background="#52BE80"
-
             android:layout_marginLeft="10dp"
             android:text="S"
             android:layout_width="50dp"
             android:layout_height="50dp" />
-
-
         <Button
             android:textSize="20dp"
             android:textStyle="bold"
@@ -210,11 +243,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
-
-
 </LinearLayout>
-
-
 
            <TextView
                android:layout_marginTop="10dp"
@@ -222,7 +251,7 @@
                android:layout_height="40dp"
                android:layout_gravity="center"
                android:text="Skip"
-               android:textColor="#000000"
+               android:textColor="#ffffff"
                android:textStyle="bold"
                android:gravity="center"
                android:textSize="20dp"
