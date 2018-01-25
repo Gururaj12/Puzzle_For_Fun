@@ -107,6 +107,9 @@ text.setOnClickListener(new View.OnClickListener() {
                 mylist.get(2).equals("s") && mylist.get(3).equals("i") &&
                 mylist.get(4).equals("c") ){
             Toast.makeText(this, "|Answer correct", Toast.LENGTH_SHORT).show();
+
+            Intent intent=new Intent(Basic.this,IQ_Test_1.class);
+            startActivity(intent);
         }else
         {
            showTastyToast();
