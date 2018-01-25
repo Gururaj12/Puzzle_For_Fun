@@ -15,6 +15,7 @@
 
 
     <TextView
+        android:id="@+id/question1tv"
         android:padding="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,7 +33,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/question1a"
         android:text="5"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -43,7 +44,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/question1b"
         android:text="3"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -54,7 +55,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/question1c"
         android:text="7"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -65,7 +66,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/question1d"
         android:text="9"
         android:textSize="25dp"
         android:textStyle="bold"
