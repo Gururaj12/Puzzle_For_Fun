@@ -17,9 +17,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Album">
-
-        </activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Registration"></activity>
+        <activity android:name=".Basic"></activity>
+        <activity android:name=".Home"></activity>
 
     </application>
 
