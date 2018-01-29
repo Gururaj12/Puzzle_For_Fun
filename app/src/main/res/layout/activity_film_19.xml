@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/film_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    tools:context="com.example.dqtech.puzzle_for_fun.Film_8">
+    android:background="@drawable/film_1"
+    tools:context="com.example.dqtech.puzzle_for_fun.Film_19">
+
 
 
     <LinearLayout
@@ -18,8 +18,9 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="@string/film8"
-            android:textSize="35dp"
+            android:id="@+id/film19tv"
+            android:text="   'Pather Panchali' is one of this director's classic movies - he even won an Oscar for Lifetime Achievement. Who is this ...? "
+            android:textSize="30dp"
             android:textStyle="bold"
             android:layout_marginLeft="10dp"
             android:textColor="#fff"
@@ -29,10 +30,9 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/film8_1"
-        android:text="A League of Their Own"
-        android:textSize="20dp"
-        android:textAllCaps="false"
+        android:id="@+id/film19a"
+        android:text=" N. Arun   "
+        android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -42,9 +42,8 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/film8_2"
-        android:text="Sleepless in Seattle"
-        android:textAllCaps="false"
+        android:id="@+id/film19b"
+        android:text=" Sanjay Leela Bhansali "
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#fff"
@@ -55,10 +54,9 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/film8_3"
-        android:text="Splash"
-        android:textAllCaps="false"
-        android:textSize="20dp"
+        android:id="@+id/film19c"
+        android:text="Satyajit Ray"
+        android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -68,10 +66,9 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/film8_4"
-        android:text="Big"
-        android:textAllCaps="false"
-        android:textSize="20dp"
+        android:id="@+id/film19d"
+        android:text="Gopalkrishnan "
+        android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -80,5 +77,4 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content" />
 
-
-</LinearLayout>
+  </LinearLayout>

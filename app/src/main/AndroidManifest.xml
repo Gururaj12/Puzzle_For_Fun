@@ -17,17 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Registration" />
-        <activity android:name=".Login" />
-        <activity android:name=".Home" />
-        <activity android:name=".Basic" />
-        <activity android:name=".IQ_Test_1" />
-        <activity android:name=".Film_8" />
-        <activity android:name=".Film_9" />
-        <activity android:name=".Film_10" />
-        <activity android:name=".Film_11" />
-        <activity android:name=".Film_12" />
-        <activity android:name=".Film_13" />
-        <activity android:name=".Film_14"></activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Home"></activity>
+        <activity android:name=".Basic"></activity>
+        <activity android:name=".IQ_Test_1"></activity>
+        <activity android:name=".Film_8"></activity>
     </application>
 
 </manifest>

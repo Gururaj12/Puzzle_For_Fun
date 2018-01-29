@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/film_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    tools:context="com.example.dqtech.puzzle_for_fun.Film_8">
+    android:background="@drawable/film_1"
+    tools:context="com.example.dqtech.puzzle_for_fun.Film_17">
+
 
 
     <LinearLayout
@@ -18,8 +18,9 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="@string/film8"
-            android:textSize="35dp"
+            android:id="@+id/film17tv"
+            android:text=" The Indian film industry is notorious for its underworld connections - which of these people was killed by underworld thugs ...? "
+            android:textSize="25dp"
             android:textStyle="bold"
             android:layout_marginLeft="10dp"
             android:textColor="#fff"
@@ -29,10 +30,9 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/film8_1"
-        android:text="A League of Their Own"
-        android:textSize="20dp"
-        android:textAllCaps="false"
+        android:id="@+id/film17a"
+        android:text="Rakesh Roshan"
+        android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -42,10 +42,9 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/film8_2"
-        android:text="Sleepless in Seattle"
-        android:textAllCaps="false"
-        android:textSize="20dp"
+        android:id="@+id/film17b"
+        android:text=" Kishen Kumar "
+        android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -55,10 +54,9 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/film8_3"
-        android:text="Splash"
-        android:textAllCaps="false"
-        android:textSize="20dp"
+        android:id="@+id/film17c"
+        android:text="Gulshan Kumar"
+        android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -68,10 +66,9 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/film8_4"
-        android:text="Big"
-        android:textAllCaps="false"
-        android:textSize="20dp"
+        android:id="@+id/film17d"
+        android:text=" Shah Rukh Khan"
+        android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -79,6 +76,12 @@
         android:layout_gravity="center"
         android:layout_width="250dp"
         android:layout_height="wrap_content" />
+
+
+
+
+
+
 
 
 </LinearLayout>
