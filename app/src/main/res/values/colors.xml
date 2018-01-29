@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorlightblack">#FFA4A7B6</color>
-    <color name="colorlightpink">#FFC1A1AC</color>
+    <color name="colorlightpink">#a1abc1</color>
+    <color name="sky">#87ceeb</color>
 </resources>
