@@ -21,4 +21,14 @@
     <item> What color is the square...?  </item>
 </string>
 
+    <string name="test_6">
+
+    <item> Which of the following can be arranged into a 5-letter English word...?  </item>
+</string>
+
+    <string name="test_7">
+
+    <item> Find the answer that best completes the analogy...?  </item>
+</string>
+
 </resources>
