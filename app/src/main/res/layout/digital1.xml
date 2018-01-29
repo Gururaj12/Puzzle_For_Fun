@@ -59,7 +59,7 @@
     <Button
         android:textSize="20dp"
         android:textStyle="bold"
-        android:background="@color/sky"
+        android:background="@drawable/ba"
         android:text="next"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
