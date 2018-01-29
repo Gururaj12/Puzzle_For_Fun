@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/iqbackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dqtech.puzzle_for_fun.Numberseries">
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/outline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/economy"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/wef1"
+        android:text="Klaus Schwab"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_back"
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/wef2"
+        android:text="John Kenneth Galbraith"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/button_back"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/wef3"
+        android:text="Robert Zoellick"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_back"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/wef4"
+        android:text="Paul Krugman"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/button_back"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

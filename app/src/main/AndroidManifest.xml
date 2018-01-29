@@ -16,14 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login" />
         <activity android:name=".Registration" />
-        <activity android:name=".Home" />
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Home"></activity>
+        <activity android:name=".Basic"></activity>
         <activity android:name=".IQ_Test_1"></activity>
-        <activity android:name=".IQ_Test_2"></activity>
-        <activity android:name=".IQ_Test_3"></activity>
-        <activity android:name=".IQ_Test_4"></activity>
-        <activity android:name=".IQ_Test_5"></activity>
+        <activity android:name=".Film_8"></activity>
     </application>
 
 </manifest>

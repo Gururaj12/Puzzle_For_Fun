@@ -2,7 +2,7 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
     <stroke
-        android:width="2dp"
+        android:width="5dp"
         ></stroke>
 
     <corners
@@ -17,4 +17,3 @@
 
 
 </shape>
-
