@@ -1,28 +1,50 @@
 package com.example.dqtech.puzzle_for_fun;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class Home extends AppCompatActivity {
-    Button b1,b2,b3,b4;
+    Button pic,question,film,gk;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        b1= (Button) findViewById(R.id.b1);
-        b2= (Button) findViewById(R.id.b2);
-        b3= (Button) findViewById(R.id.b3);
-        b4= (Button) findViewById(R.id.b4);
-        b1.setOnClickListener(new View.OnClickListener() {
+
+        pic= (Button) findViewById(R.id.fourpic);
+        question= (Button) findViewById(R.id.iq);
+        film= (Button) findViewById(R.id.film);
+        gk= (Button) findViewById(R.id.gk);
+
+        pic.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"4pics in 1 answer",Toast.LENGTH_SHORT).show();
+            public void onClick(View view) {
+                Intent intent=new Intent(Home.this,Basic.class);
+                startActivity(intent);
+
+            }
+        });
+        question.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
             }
         });
 
+        film.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+        gk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 }

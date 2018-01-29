@@ -16,14 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Registration" />
-        <activity android:name=".Film_15" />
-        <activity android:name=".Film_16" />
-        <activity android:name=".Film_17" />
-        <activity android:name=".Film_18" />
-        <activity android:name=".Film_19" />
-        <activity android:name=".Film_20" />
-        <activity android:name=".Film_21"></activity>
+        <activity android:name=".Registration"></activity>
     </application>
 
 </manifest>
