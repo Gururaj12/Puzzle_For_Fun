@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/iqback3"
+    tools:context="com.example.dqtech.puzzle_for_fun.Questionr5">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/question5tv"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textbackground"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:text=" There were ten sparrows sitting on a tree. A hunter fired and two of them fell dead. How many sparrows were left on the tree?"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/question5a"
+        android:text="3"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/button1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/question5b"
+        android:text="5"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/button1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="190dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/question5c"
+        android:text="7"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/button1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/question5d"
+        android:text="none"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/button1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="190dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+</LinearLayout>

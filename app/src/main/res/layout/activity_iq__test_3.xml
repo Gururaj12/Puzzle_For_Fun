@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/iqback3"
+    tools:context="com.example.dqtech.puzzle_for_fun.IQ_Test_3">
+
+    <LinearLayout
+        android:background="@drawable/outline"
+        android:layout_width="370dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/test_3"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/test3a"
+        android:text="Trees"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/test3b"
+        android:text="Paper"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_back"
+        android:layout_marginLeft="190dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/test3c"
+        android:text="Painting"
+        android:textSize="23dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_back"
+        android:layout_marginLeft="30dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/test3d"
+        android:text="Plastic"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_back"
+        android:layout_marginLeft="190dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+  <!--  <Button
+        android:id="@+id/bu8"
+        android:text="E.Furniture of wood"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_back"
+        android:layout_marginLeft="30dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />-->
+
+</LinearLayout>

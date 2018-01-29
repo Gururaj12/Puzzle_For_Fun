@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,11 +7,17 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     tools:context="com.example.dqtech.puzzle_for_fun.FlashScreen">
-
+    <TextView android:text="PROJECT FUN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt" />
     <ImageView
         android:id="@+id/iv"
-        android:src="@drawable/logo2"
+        android:src="@drawable/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-</LinearLayout>
+</RelativeLayout>

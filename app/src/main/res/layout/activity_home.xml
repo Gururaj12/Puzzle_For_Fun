@@ -8,7 +8,7 @@
     android:background="@drawable/color"
     tools:context="com.example.dqtech.puzzle_for_fun.Home">
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/fourpic"
         android:textColor="#fff"
         android:background="@drawable/back"
         android:layout_marginTop="30dp"
@@ -17,7 +17,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/b2"
+        android:id="@+id/iq"
         android:textColor="#fff"
         android:background="@drawable/back"
         android:layout_marginTop="30dp"
@@ -26,7 +26,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/b3"
+        android:id="@+id/film"
         android:textColor="#fff"
         android:background="@drawable/back"
         android:layout_marginTop="30dp"
@@ -35,7 +35,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/b4"
+        android:id="@+id/gk"
         android:textColor="#fff"
         android:background="@drawable/back"
         android:layout_marginTop="30dp"
