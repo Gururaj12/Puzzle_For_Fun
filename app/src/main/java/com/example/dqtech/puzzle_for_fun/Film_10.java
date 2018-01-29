@@ -3,7 +3,7 @@ package com.example.dqtech.puzzle_for_fun;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Film_8 extends AppCompatActivity {
+public class Film_10 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

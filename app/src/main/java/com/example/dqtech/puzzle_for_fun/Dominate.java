@@ -3,11 +3,11 @@ package com.example.dqtech.puzzle_for_fun;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Second extends AppCompatActivity {
+public class Dominate extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_dominate);
     }
 }
