@@ -16,11 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Album">
-
-        </activity>
-
+        <activity android:name=".Album" />
+        <activity android:name=".Conflict" />
+        <activity android:name=".Converse" />
+        <activity android:name=".Dominate" />
+        <activity android:name=".Indicate" />
+        <activity android:name=".Overkill" />
+        <activity android:name=".Scavenge" />
+        <activity android:name=".Takesout" />
+        <activity android:name=".Negative" />
+        <activity android:name=".Receiver" />
+        <activity android:name=".Assemble"></activity>
     </application>
 
 </manifest>
