@@ -7,5 +7,14 @@
     <string name="test_5"></string>
     <string name="test_6"></string>
     <string name="test_7"></string>
+    <string name="cifaipc"></string>
+    <string name="findword"></string>
+    <string name="forest"></string>
+    <string name="numberseries"></string>
+    <string name="percentage"></string>
+    <string name="socrates"></string>
+    <string name="economy"></string>
+
+
     <color name="sky">#87cefa</color>
 </resources>
