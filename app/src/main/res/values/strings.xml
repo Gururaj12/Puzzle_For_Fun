@@ -1,91 +1,11 @@
 <resources>
     <string name="app_name">Puzzle_For_Fun</string>
-
-    <string name="test_1">
-        <item>  Which of the four is least like the other three? </item>
-    </string>
-
-    <string name="test_2">
-        <item>  Which country has the highest number of the cell phone user...?  </item>
-    </string>
-
-    <string name="test_3">
-        <item>  Which of the following is least similar to the others...?  </item>
-    </string>
-
-    <string name="test_4">
-        <item>  Marys father has 5 doughters Nana, Nene, Nini and Nono. Who is the 5th doughter...?   </item>
-    </string>
-    <string name="test_5">
-
-    <item> What color is the square...?  </item>
-</string>
-
-    <string name="test_6">
-
-    <item> Which of the following can be arranged into a 5-letter English word...?  </item>
-</string>
-
-    <string name="test_7">
-
-    <item> Find the answer that best completes the analogy...?  </item>
-</string>
-
-    <string name="economy">
-        <item>Who among the following is the founder of World Economy Forum?</item>
-    </string>
-
-    <string name="numberseries">
-        <item>Which number logically follows this series:4-6-9-6-14-6..</item>
-    </string>
-
-    <string name="cifaipc">
-        <item>If you rearrange the letters "CIFAIPC" you would have the name of a(n):</item>
-    </string>
-
-    <string name="percentage">
-        <item>What is 40% of 190?</item>
-    </string>
-
-    <string name="socrates">
-        <item>Rearrange the letters of the name SOCRATES to give two other eight letter words. What will be the first letter of both words?</item>
-    </string>
-
-    <string name="findword">
-        <item>6121135 is to flame as 21215120 is to ?</item>
-    </string>
-
-    <string name="forest">
-        <item>Forest is to tree as tree is to ?</item>
-    </string>
-
-    <string name="film8">
-
-        <item>For which comedy did Tom Hanks receive his first Oscar nomination?</item>
-    </string>
-
-    <string name="film9">
-        <item>What is the only film based on a TV series to get a Best Picture nomination?</item>
-    </string>
-
-    <string name="film10">
-        <item>Oscar-winner Marisa Tomei’s My Cousin Vinny character was an “expert” witness in what area?</item>
-    </string>
-
-    <string name="film11">
-        <item>Which Best Picture winner features the line, “I coulda been a contender”?</item>
-    </string>
-
-    <string name="film12">
-        <item>Who attended the 1956 Academy Awards less than a month before becoming a princess?</item>
-    </string>
-
-    <string name="film13">
-        <item>David Niven described the 1974 Oscar streaker as a man who was doing what?</item>
-    </string>
-
-    <string name="film14">
-        <item>For which film did nine-year-old Justin Henry receive an Oscar nomination?</item>
-    </string>
-
+    <string name="test_1"></string>
+    <string name="test_2"></string>
+    <string name="test_3"></string>
+    <string name="test_4"></string>
+    <string name="test_5"></string>
+    <string name="test_6"></string>
+    <string name="test_7"></string>
+    <color name="sky">#87cefa</color>
 </resources>
