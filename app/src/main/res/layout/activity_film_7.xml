@@ -29,7 +29,7 @@
 
     <Button
         android:id="@+id/filma"
-        android:text="Diya"
+        android:text="Mr India"
         android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#fff"
@@ -41,8 +41,8 @@
 
     <Button
         android:id="@+id/filmb"
-        android:text="Tanuja"
-        android:textSize="25dp"
+        android:text="Do Ankhen Barah Haath"
+        android:textSize="15dp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -53,8 +53,8 @@
 
     <Button
         android:id="@+id/filmc"
-        android:text="Poonam"
-        android:textSize="25dp"
+        android:text="Dance Dance"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -65,7 +65,7 @@
 
     <Button
         android:id="@+id/filmd"
-        android:text="Maheep"
+        android:text="Tarzan"
         android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#fff"
