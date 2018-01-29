@@ -14,11 +14,22 @@
     </string>
 
     <string name="test_4">
-        <item>  Marys father has 5 doughters Nana, Nene, Nini and Nono. Who is the 5th doughter...?   </item>
+        <item>  Marys father has 5 daughters Nana, Nene, Nini and Nono. Who is the 5th daughter...?   </item>
     </string>
     <string name="test_5">
 
     <item> What color is the square...?  </item>
-</string>
+    </string>
+
+    <string name="test_6">
+       <item> which of the following can be arranged into a 5 letter english word...?  </item>
+
+    </string>
+
+    <string name="test_7">
+       <item> Find the answer which completes the analogy...?  </item>
+
+    </string>
+
 
 </resources>
