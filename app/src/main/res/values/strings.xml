@@ -6,6 +6,7 @@
     </string>
 
     <string name="test_2">
+
         <item>  Which country has the highest number of the cell phone user...?  </item>
     </string>
 
@@ -31,6 +32,33 @@
     <item> Find the answer that best completes the analogy...?  </item>
 </string>
 
+    <string name="socrates">
+        <item>Rearrange the letters of the name SOCRATES to give two other eight letter words. What will be the first letter of both words?</item>
+    </string>
+
+    <string name="findword">
+        <item>6121135 is to flame as 21215120 is to ?</item>
+    </string>
+
+    <string name="forest">
+        <item>Forest is to tree as tree is to ?</item>
+    </string>
+
+    <string name="percentage">
+        <item>What is 40% of 190?</item>
+    </string>
+
+    <string name="numberseries">
+        <item>Which number is logically follows this series: 4-6-9-6-14-6- ....</item>
+    </string>
+
+    <string name="cifaipc">
+        <item>If you rearrange the letters "CIFAIPC" you would have the name of a(n):</item>
+    </string>
+
+    <string name="economy">
+        <item>Who among the following is the founder of World Economic Forum?</item>
+    </string>
 
 
     <string name="film_1">
@@ -68,35 +96,6 @@
     <item> The first film Alisha Chinai sang for was...?  </item>
 </string>
 
-
-    <string name="socrates">
-        <item>Rearrange the letters of the name SOCRATES to give two other eight letter words. What will be the first letter of both words?</item>
-    </string>
-
-    <string name="findword">
-        <item>6121135 is to flame as 21215120 is to ?</item>
-    </string>
-
-    <string name="forest">
-        <item>Forest is to tree as tree is to ?</item>
-    </string>
-
-    <string name="percentage">
-        <item>What is 40% of 190?</item>
-    </string>
-
-    <string name="numberseries">
-        <item>Which number is logically follows this series: 4-6-9-6-14-6- ....</item>
-    </string>
-
-    <string name="cifaipc">
-        <item>If you rearrange the letters "CIFAIPC" you would have the name of a(n):</item>
-    </string>
-
-    <string name="economy">
-        <item>Who among the following is the founder of World Economic Forum?</item>
-    </string>
-
     <string name="film8">
 
         <item>For which comedy did Tom Hanks receive his first Oscar nomination?</item>
@@ -125,5 +124,6 @@
     <string name="film14">
         <item>For which film did nine-year-old Justin Henry receive an Oscar nomination?</item>
     </string>
+
 
 </resources>
