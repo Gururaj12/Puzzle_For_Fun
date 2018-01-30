@@ -9,5 +9,6 @@ public class IQ_Text_6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iq__text_6);
+        ///safa
     }
 }
