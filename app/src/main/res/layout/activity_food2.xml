@@ -18,7 +18,17 @@
         android:text="2. In which year was Ben  Jerry's ice cream company established?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
     <RadioButton
+        android:id="@+id/rb2a"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -27,6 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/rb2b"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -35,6 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/rb2c"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -43,6 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:id="@+id/food2"
         android:textSize="20dp"
         android:textStyle="bold"
         android:background="@color/sky"
@@ -51,5 +64,8 @@
         android:layout_marginTop="20dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
 
 </LinearLayout>
