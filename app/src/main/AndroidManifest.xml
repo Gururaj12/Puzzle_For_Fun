@@ -24,7 +24,7 @@
         <activity android:name=".IQ_Test_3"></activity>
         <activity android:name=".IQ_Test_4"></activity>
         <activity android:name=".IQ_Test_5"></activity>
-        <activity android:name=".IQ_Text_6"></activity>
+        <activity android:name=".IQ_Test_6"></activity>
         <activity android:name=".IQ_Test_7"></activity>
         <activity android:name=".Questionr1"></activity>
         <activity android:name=".Questionr2"></activity>

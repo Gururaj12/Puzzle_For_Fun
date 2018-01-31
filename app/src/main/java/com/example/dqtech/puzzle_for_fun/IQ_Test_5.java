@@ -20,9 +20,9 @@ public class IQ_Test_5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iq__test_5);
 
-        testa5= (Button) findViewById(R.id.test5a);
-        testb5= (Button) findViewById(R.id.test5b);
-        testc5= (Button) findViewById(R.id.test5c);
+        testa5= (Button) findViewById(R.id.testa);
+        testb5= (Button) findViewById(R.id.testb);
+        testc5= (Button) findViewById(R.id.testc);
 
 
         testa5.setOnClickListener(new View.OnClickListener() {
@@ -44,9 +44,9 @@ public class IQ_Test_5 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(IQ_Test_5.this, IQ_Text_6.class);
+                Intent i5=new Intent(IQ_Test_5.this,IQ_Test_6.class);
                 Toast.makeText(IQ_Test_5.this, "Correct Answer", Toast.LENGTH_SHORT).show();
-                startActivity(i);
+                startActivity(i5);
 
             }
         });

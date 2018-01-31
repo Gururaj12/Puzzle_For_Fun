@@ -11,14 +11,14 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class IQ_Text_6 extends AppCompatActivity {
+public class IQ_Test_6 extends AppCompatActivity {
 
     Button testa6,testb6,testc6,testd6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_iq__text_6);
+        setContentView(R.layout.activity_iq__test_6);
 
 
         testa6= (Button) findViewById(R.id.test6a);
@@ -60,9 +60,9 @@ public class IQ_Text_6 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(IQ_Text_6.this, IQ_Test_4.class);
-                Toast.makeText(IQ_Text_6.this, "Correct Answer", Toast.LENGTH_SHORT).show();
-                startActivity(i);
+                Intent i6 = new Intent(IQ_Test_6.this, IQ_Test_7.class);
+                Toast.makeText(IQ_Test_6.this, "Correct Answer", Toast.LENGTH_SHORT).show();
+                startActivity(i6);
 
             }
         });
