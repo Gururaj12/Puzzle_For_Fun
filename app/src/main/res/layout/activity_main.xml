@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dqtech.puzzle_for_fun.MainActivity">
-
-</android.support.constraint.ConstraintLayout>
+    android:orientation="vertical"
+    android:background="@drawable/color"
+    tools:context="com.example.dqtech.puzzle_for_fun.Home">
+    <Button
+        android:id="@+id/computer"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Computer Quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/iq"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Sports Quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/film"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Food Quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/gk"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Mahabharat Quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/digital"
+        android:textColor="#fff"
+        android:background="@drawable/back"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Digital Technology Quiz "
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

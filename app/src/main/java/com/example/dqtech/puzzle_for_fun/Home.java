@@ -43,6 +43,8 @@ public class Home extends AppCompatActivity {
         gk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+            Intent y=new Intent(Home.this,MainActivity.class);
+                startActivity(y);
 
             }
         });

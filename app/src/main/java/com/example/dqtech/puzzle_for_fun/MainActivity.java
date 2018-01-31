@@ -8,24 +8,22 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by ADMIN on 1/29/2018.
+ * Created by ADMIN on 1/30/2018.
  */
 
-public class Digital2 extends AppCompatActivity {
-    Button b13;
+public class MainActivity extends AppCompatActivity {
+    Button b1;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_digital2);
-        b13= (Button) findViewById(R.id.n12);
-        b13.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_main);
+        b1= (Button) findViewById(R.id.computer);
+        b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent x=new Intent(Digital2.this,Digital3.class);
-                startActivity(x);
+                Intent a=new Intent(MainActivity.this,Computer.class);
+                startActivity(a);
             }
         });
-
-
     }
 }
