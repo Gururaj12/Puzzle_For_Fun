@@ -9,26 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Food1">
+        <activity android:name=".FlashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login" />
-        <activity android:name=".Registration" />
-        <activity android:name=".FlashScreen" />
-        <activity android:name=".Food2" />
-        <activity android:name=".Food3" />
-        <activity android:name=".Food4" />
-        <activity android:name=".Food5" />
-        <activity android:name=".Food6" />
-        <activity android:name=".Food7" />
-        <activity android:name=".Food8" />
-        <activity android:name=".Food9" />
-        <activity android:name=".Food10" />
-        <activity android:name=".ScoreboardActivity"></activity>
+        <activity android:name=".Registration"></activity>
     </application>
 
 </manifest>

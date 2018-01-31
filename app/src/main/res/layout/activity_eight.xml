@@ -18,7 +18,13 @@
         android:text="8. All of the following are examples of input devices EXCEPT a:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/r8"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <RadioButton
+        android:id="@+id/ry29"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -27,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry30"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -35,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
-
+        android:id="@+id/ry31"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -44,6 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry32"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -51,7 +59,9 @@
         android:text=" printer."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    </RadioGroup>
     <Button
+        android:id="@+id/n8"
         android:textSize="20dp"
         android:textStyle="bold"
         android:background="@color/sky"

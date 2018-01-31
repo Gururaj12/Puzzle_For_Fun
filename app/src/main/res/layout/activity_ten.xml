@@ -18,23 +18,31 @@
         android:text="10. Servers are computers that provide resources to other computers connected to a:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/r10"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <RadioButton
+        android:id="@+id/ry37"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="70dp"
-        android:text="  network."
+        android:text="network."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry38"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="70dp"
-        android:text=" mainframe."
+        android:text="mainframe."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry39"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -43,14 +51,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry40"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
-        android:text="  client."
+        android:text="client."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    </RadioGroup>
     <Button
+        android:id="@+id/n10"
         android:textSize="20dp"
         android:textStyle="bold"
         android:background="@color/sky"
