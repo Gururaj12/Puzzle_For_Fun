@@ -37,7 +37,8 @@ public class Home extends AppCompatActivity {
         film.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent film=new Intent(Home.this,Film_1.class);
+                startActivity(film);
             }
         });
         gk.setOnClickListener(new View.OnClickListener() {

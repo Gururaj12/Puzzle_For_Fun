@@ -16,7 +16,41 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Registration"></activity>
+        <activity android:name=".Login">
+
+        </activity>
+        <activity android:name=".Registration">
+
+        </activity>
+        <activity android:name=".Home">
+
+        </activity>
+        <activity android:name=".Film_1">
+
+        </activity>
+
+        <activity android:name=".Film_2"></activity>
+        <activity android:name=".Film_3"></activity>
+        <activity android:name=".Film_4"></activity>
+        <activity android:name=".Film_5"></activity>
+        <activity android:name=".Film_6"></activity>
+        <activity android:name=".Film_7"></activity>
+        <activity android:name=".Film_8"></activity>
+        <activity android:name=".Film_9"></activity>
+        <activity android:name=".Film_10"></activity>
+        <activity android:name=".Film_11"></activity>
+        <activity android:name=".Film_12"></activity>
+        <activity android:name=".Film_13"></activity>
+        <activity android:name=".Film_14"></activity>
+        <activity android:name=".Film_15"></activity>
+        <activity android:name=".Film_16"></activity>
+        <activity android:name=".Film_17"></activity>
+        <activity android:name=".Film_18"></activity>
+        <activity android:name=".Film_19"></activity>
+        <activity android:name=".Film_20"></activity>
+
+
+
     </application>
 
 </manifest>

@@ -32,7 +32,8 @@
     <Button
         android:id="@+id/film19a"
         android:text=" N. Arun   "
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -45,6 +46,7 @@
         android:id="@+id/film19b"
         android:text=" Sanjay Leela Bhansali "
         android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -56,7 +58,8 @@
     <Button
         android:id="@+id/film19c"
         android:text="Satyajit Ray"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -68,7 +71,8 @@
     <Button
         android:id="@+id/film19d"
         android:text="Gopalkrishnan "
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"

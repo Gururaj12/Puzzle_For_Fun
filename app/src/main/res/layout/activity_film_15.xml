@@ -31,7 +31,8 @@
     <Button
         android:id="@+id/film15a"
         android:text="N. Arun"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -43,7 +44,8 @@
     <Button
         android:id="@+id/film15b"
         android:text="Amitabh Bachanan"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -55,7 +57,8 @@
     <Button
         android:id="@+id/film15c"
         android:text="Shah Rukh Khan"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -67,7 +70,8 @@
     <Button
         android:id="@+id/film15d"
         android:text=" Salman Khan"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -75,9 +79,5 @@
         android:layout_gravity="center"
         android:layout_width="250dp"
         android:layout_height="wrap_content" />
-
-
-
-
 
 </LinearLayout>
