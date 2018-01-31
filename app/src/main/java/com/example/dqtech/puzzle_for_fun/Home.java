@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class Home extends AppCompatActivity {
     Button pic,question,film,gk;
+    //vb
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,9 @@ public class Home extends AppCompatActivity {
         question.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Intent intent=new Intent(Home.this,IQ_Test_1.class);
+                startActivity(intent);
 
             }
         });
