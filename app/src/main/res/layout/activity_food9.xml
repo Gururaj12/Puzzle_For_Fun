@@ -18,7 +18,18 @@
         android:text="9. Which of the following ingredients are not used in a Bloody Mary according to Playboy Bar Guide?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/rg9"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
     <RadioButton
+        android:id="@+id/rb9a"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -27,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/rb9b"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -35,6 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/rb9c"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -43,6 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:id="@+id/food9"
         android:textSize="20dp"
         android:textStyle="bold"
         android:background="@color/sky"
@@ -51,5 +65,9 @@
         android:layout_marginTop="20dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+
 
 </LinearLayout>

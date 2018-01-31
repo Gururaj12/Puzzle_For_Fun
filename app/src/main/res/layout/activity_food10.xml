@@ -18,7 +18,16 @@
         android:text="10. Europeans first learned of chocolate from whom?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/rg10"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
     <RadioButton
+        android:id="@+id/rb10a"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -27,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/rb10b"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -35,6 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/rb10c"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -43,13 +54,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:id="@+id/food10"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:background="@drawable/ba"
+        android:background="@color/sky"
         android:text="next"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
 
 </LinearLayout>
