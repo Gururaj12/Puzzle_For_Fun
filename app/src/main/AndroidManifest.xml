@@ -16,19 +16,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login">
-
-        </activity>
-        <activity android:name=".Registration">
-
-        </activity>
-        <activity android:name=".Home">
-
-        </activity>
-        <activity android:name=".Film_1">
-
-        </activity>
-
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Registration"></activity>
+        <activity android:name=".Home"></activity>
+        <activity android:name=".IQ_Test_1"></activity>
+        <activity android:name=".IQ_Test_2"></activity>
+        <activity android:name=".IQ_Test_3"></activity>
+        <activity android:name=".IQ_Test_4"></activity>
+        <activity android:name=".IQ_Test_5"></activity>
+        <activity android:name=".IQ_Text_6"></activity>
+        <activity android:name=".IQ_Test_7"></activity>
+        <activity android:name=".Questionr1"></activity>
+        <activity android:name=".Questionr2"></activity>
+        <activity android:name=".Questionr3"></activity>
+        <activity android:name=".Questionr4"></activity>
+        <activity android:name=".Questionr5"></activity>
+        <activity android:name=".Questionr6"></activity>
+        <activity android:name=".Questionr7"></activity>
+        <activity android:name=".CIFAIPC"></activity>
+        <activity android:name=".Forest"></activity>
+        <activity android:name=".Findword"></activity>
+        <activity android:name=".Numberseries"></activity>
+        <activity android:name=".Percentage"></activity>
+        <activity android:name=".SOCRATES"></activity>
+        <activity android:name=".Worldeconomyforum"></activity>
+        <activity android:name=".Film_1"></activity>
         <activity android:name=".Film_2"></activity>
         <activity android:name=".Film_3"></activity>
         <activity android:name=".Film_4"></activity>

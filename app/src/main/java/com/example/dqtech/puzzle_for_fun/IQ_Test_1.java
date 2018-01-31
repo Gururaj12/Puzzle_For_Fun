@@ -20,7 +20,7 @@ public class IQ_Test_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iq__test_1);
 
-        testa1= (Button) findViewById(R.id.a);
+        testa1= (Button) findViewById(R.id.text1a);
         testb1= (Button) findViewById(R.id.test1b);
         testc1= (Button) findViewById(R.id.test1c);
         testd1= (Button) findViewById(R.id.test1d);

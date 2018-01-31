@@ -28,7 +28,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/aaa"
+        android:id="@+id/text1a"
         android:text="Brook"
         android:textSize="25dp"
         android:textStyle="bold"

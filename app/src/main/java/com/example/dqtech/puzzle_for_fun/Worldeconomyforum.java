@@ -24,6 +24,7 @@ public class Worldeconomyforum extends AppCompatActivity {
         wor1b= (Button) findViewById(R.id.wef2);
         wor1c= (Button) findViewById(R.id.wef3);
         wor1d= (Button) findViewById(R.id.wef4);
+        //as
 
 
         wor1a.setOnClickListener(new View.OnClickListener() {
