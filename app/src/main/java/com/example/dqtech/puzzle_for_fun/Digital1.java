@@ -23,6 +23,7 @@ public class Digital1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent w=new Intent(Digital1.this,Digital2.class);
                 startActivity(w);
+                ///hvhgg
             }
         });
     }
