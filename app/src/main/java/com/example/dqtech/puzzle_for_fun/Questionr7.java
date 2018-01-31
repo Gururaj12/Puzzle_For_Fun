@@ -43,7 +43,7 @@ public class Questionr7 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i=new Intent(Questionr7.this,Questionr2.class);
+                Intent i=new Intent(Questionr7.this,CIFAIPC.class);
                 Toast.makeText(Questionr7.this, "Correct Answer", Toast.LENGTH_SHORT).show();
                 startActivity(i);
 

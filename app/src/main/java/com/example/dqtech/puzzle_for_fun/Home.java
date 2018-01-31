@@ -23,8 +23,8 @@ public class Home extends AppCompatActivity {
         pic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Home.this,Basic.class);
-                startActivity(intent);
+                Intent i=new Intent(Home.this,Basic.class);
+                startActivity(i);
 
             }
         });
