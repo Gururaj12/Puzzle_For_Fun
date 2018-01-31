@@ -63,6 +63,7 @@ public class Questionr7 extends AppCompatActivity {
                 TextView toastText = (TextView) tastyToast.findViewById(R.id.textView1);
                 newToast.setView(tastyToast);
                 newToast.show();
+                //utj
 
             }
         });
