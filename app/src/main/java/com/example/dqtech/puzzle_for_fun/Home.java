@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class Home extends AppCompatActivity {
     Button pic,question,film,gk;
+    //vb
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,14 +23,17 @@ public class Home extends AppCompatActivity {
         pic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Home.this,Basic.class);
-                startActivity(intent);
+                Intent i=new Intent(Home.this,Basic.class);
+                startActivity(i);
 
             }
         });
         question.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Intent intent=new Intent(Home.this,IQ_Test_1.class);
+                startActivity(intent);
 
             }
         });
@@ -44,6 +48,8 @@ public class Home extends AppCompatActivity {
         gk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+            Intent y=new Intent(Home.this,MainActivity.class);
+                startActivity(y);
 
             }
         });

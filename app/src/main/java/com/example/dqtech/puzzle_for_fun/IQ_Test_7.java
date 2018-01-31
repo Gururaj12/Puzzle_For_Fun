@@ -1,8 +1,8 @@
 package com.example.dqtech.puzzle_for_fun;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,22 +11,26 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Questionr7 extends AppCompatActivity {
+/**
+ * Created by admin on 1/31/2018.
+ */
 
-    Button question7a,question7b,question7c,question7d;
+public class IQ_Test_7 extends AppCompatActivity {
 
-    @Override
+    Button testa7,testb7,testc7,testd7;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_questionr7);
-        question7a=(Button)findViewById(R.id.question1a);
-        question7b=(Button)findViewById(R.id.question1b);
-        question7c=(Button)findViewById(R.id.question1c);
-        question7d=(Button)findViewById(R.id.question1d);
+        setContentView(R.layout.activity_iq__test_7);
 
-        question7a.setOnClickListener(new View.OnClickListener() {
+        testa7= (Button) findViewById(R.id.test7a);
+        testb7= (Button) findViewById(R.id.test7b);
+        testc7= (Button) findViewById(R.id.test7c);
+        testd7= (Button) findViewById(R.id.test7d);
+
+        testa7.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
 
                 Toast newToast = Toast.makeText(getApplicationContext(), R.string.app_name, Toast.LENGTH_LONG);
                 newToast.setGravity(Gravity.CENTER, 0, 0);
@@ -39,51 +43,48 @@ public class Questionr7 extends AppCompatActivity {
             }
         });
 
-        question7b.setOnClickListener(new View.OnClickListener() {
+        testb7.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
 
-                Intent i=new Intent(Questionr7.this,CIFAIPC.class);
-                Toast.makeText(Questionr7.this, "Correct Answer", Toast.LENGTH_SHORT).show();
+                Toast newToast = Toast.makeText(getApplicationContext(), R.string.app_name, Toast.LENGTH_LONG);
+                newToast.setGravity(Gravity.CENTER, 0, 0);
+                LayoutInflater inflater = getLayoutInflater();
+                View tastyToast = inflater.inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.tastyLayout));
+                TextView toastText = (TextView) tastyToast.findViewById(R.id.textView1);
+                newToast.setView(tastyToast);
+                newToast.show();
+
+            }
+        });
+
+        testc7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast newToast = Toast.makeText(getApplicationContext(), R.string.app_name, Toast.LENGTH_LONG);
+                newToast.setGravity(Gravity.CENTER, 0, 0);
+                LayoutInflater inflater = getLayoutInflater();
+                View tastyToast = inflater.inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.tastyLayout));
+                TextView toastText = (TextView) tastyToast.findViewById(R.id.textView1);
+                newToast.setView(tastyToast);
+                newToast.show();
+
+            }
+        });
+
+        testd7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i = new Intent(IQ_Test_7.this, Questionr1.class);
+                Toast.makeText(IQ_Test_7.this, "Correct Answer", Toast.LENGTH_SHORT).show();
                 startActivity(i);
-
-
-
-            }
-        });
-
-        question7c.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Toast newToast = Toast.makeText(getApplicationContext(), R.string.app_name, Toast.LENGTH_LONG);
-                newToast.setGravity(Gravity.CENTER, 0, 0);
-                LayoutInflater inflater = getLayoutInflater();
-                View tastyToast = inflater.inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.tastyLayout));
-                TextView toastText = (TextView) tastyToast.findViewById(R.id.textView1);
-                newToast.setView(tastyToast);
-                newToast.show();
-                //ut
-
-            }
-        });
-
-        question7d.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Toast newToast = Toast.makeText(getApplicationContext(), R.string.app_name, Toast.LENGTH_LONG);
-                newToast.setGravity(Gravity.CENTER, 0, 0);
-                LayoutInflater inflater = getLayoutInflater();
-                View tastyToast = inflater.inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.tastyLayout));
-                TextView toastText = (TextView) tastyToast.findViewById(R.id.textView1);
-                newToast.setView(tastyToast);
-                newToast.show();
 
             }
         });
 
 
     }
-}
 
+    }
