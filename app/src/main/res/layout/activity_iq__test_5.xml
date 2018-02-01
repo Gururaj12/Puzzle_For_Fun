@@ -37,7 +37,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/test5a"
+        android:id="@+id/testa"
         android:text="a"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -49,7 +49,7 @@
         android:layout_height="50dp" />
 
     <Button
-        android:id="@+id/test5b"
+        android:id="@+id/testb"
         android:background="#ffacac"
         android:text="b"
         android:textSize="30dp"
@@ -60,7 +60,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp" />
     <Button
-        android:id="@+id/test5c"
+        android:id="@+id/testc"
         android:background="#c27777"
         android:text="c"
         android:textSize="30dp"

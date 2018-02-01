@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/iqback3"
-    tools:context="com.example.dqtech.puzzle_for_fun.IQ_Text_6">
+    tools:context="com.example.dqtech.puzzle_for_fun.IQ_Test_6">
 
     <LinearLayout
         android:background="@drawable/outline"
@@ -28,7 +28,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/test7a"
+        android:id="@+id/test6a"
         android:text="H R G S T"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/test7b"
+        android:id="@+id/test6b"
         android:text="R I L S A "
         android:textSize="25dp"
         android:textStyle="bold"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/test7c"
+        android:id="@+id/test6c"
         android:text=" T O O M T"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/test7d"
+        android:id="@+id/test6d"
         android:text="W Q R G S"
         android:textSize="25dp"
         android:textStyle="bold"

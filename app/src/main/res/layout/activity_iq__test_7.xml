@@ -28,7 +28,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/test6a"
+        android:id="@+id/test7a"
         android:text="drawing"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/test6b"
+        android:id="@+id/test7b"
         android:text="writing"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/test6c"
+        android:id="@+id/test7c"
         android:text="stirring"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/test6d"
+        android:id="@+id/test7d"
         android:text="eating"
         android:textSize="25dp"
         android:textStyle="bold"
