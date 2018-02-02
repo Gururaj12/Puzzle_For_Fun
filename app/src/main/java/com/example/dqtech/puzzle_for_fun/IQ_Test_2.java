@@ -75,9 +75,9 @@ public class IQ_Test_2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(IQ_Test_2.this, IQ_Test_3.class);
+                Intent i2 = new Intent(IQ_Test_2.this, IQ_Test_3.class);
                 Toast.makeText(IQ_Test_2.this, "Correct Answer", Toast.LENGTH_SHORT).show();
-                startActivity(i);
+                startActivity(i2);
 
             }
         });

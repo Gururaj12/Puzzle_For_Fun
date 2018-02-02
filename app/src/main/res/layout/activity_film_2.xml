@@ -30,7 +30,8 @@
     <Button
         android:id="@+id/film2a"
         android:text="krishi dashan"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -42,7 +43,8 @@
     <Button
         android:id="@+id/film2b"
         android:text="Asian games"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -54,7 +56,8 @@
     <Button
         android:id="@+id/film2c"
         android:text="The peacock call"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -66,7 +69,8 @@
     <Button
         android:id="@+id/film2d"
         android:text="None of the above"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"

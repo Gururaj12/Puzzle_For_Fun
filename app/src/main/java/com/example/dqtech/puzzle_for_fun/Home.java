@@ -23,8 +23,8 @@ public class Home extends AppCompatActivity {
         pic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Home.this,Basic.class);
-                startActivity(intent);
+                Intent i=new Intent(Home.this,Basic.class);
+                startActivity(i);
 
             }
         });
@@ -41,7 +41,8 @@ public class Home extends AppCompatActivity {
         film.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent film=new Intent(Home.this,Film_1.class);
+                startActivity(film);
             }
         });
         gk.setOnClickListener(new View.OnClickListener() {

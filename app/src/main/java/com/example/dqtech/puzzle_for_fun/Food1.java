@@ -35,36 +35,41 @@ public class Food1 extends AppCompatActivity {
 
         food1=(Button)findViewById(R.id.food1);
 
-        rg1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int i) {
-
-                if(rba.isChecked()){
-
-
-                }
-                else if (rbb.isChecked()){
-
-                }
-
-                if (rbc.isChecked()){
-
-
-
-                }
-
-
-            }
-        });
-
-
-
 
         food1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent r=new Intent(Food1.this,Food2.class);
-                startActivity(r);
+
+                rg1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(RadioGroup radioGroup, int i) {
+
+
+                        switch (i) {
+
+                            case R.id.rba:
+                                Toast.makeText(getApplicationContext(), "wrong", Toast.LENGTH_LONG).show();
+
+                                break;
+
+                            case R.id.rbb:
+                                Toast.makeText(getApplicationContext(), "wrong", Toast.LENGTH_LONG).show();
+                                break;
+
+                            case R.id.rbc:
+                                Toast.makeText(getApplicationContext(), "correct", Toast.LENGTH_LONG).show();
+                                Intent r = new Intent(Food1.this, Food2.class);
+                                startActivity(r);
+
+                                break;
+
+                        }
+
+                    }
+
+
+                });
+
 
             }
         });

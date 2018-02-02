@@ -9,72 +9,75 @@
     android:background="@drawable/film_1"
     tools:context="com.example.dqtech.puzzle_for_fun.Film_1">
 
+        <LinearLayout
+            android:background="@drawable/film_outline1"
+            android:layout_width="370dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:background="@drawable/film_outline1"
-        android:layout_width="370dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="8dp"
-        android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/film_1"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-        <TextView
-            android:text="@string/film_1"
-            android:textSize="35dp"
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/filma"
+            android:text="Reporter "
+            android:textSize="20dp"
+            android:textAllCaps="false"
             android:textStyle="bold"
-            android:layout_marginLeft="10dp"
             android:textColor="#fff"
-            android:layout_width="wrap_content"
+            android:background="@drawable/film_button"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
             android:layout_height="wrap_content" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/filmb"
+            android:text="Photographers"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/film_button"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/filma"
-        android:text="Reporter "
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:textColor="#fff"
-        android:background="@drawable/film_button"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/filmc"
+            android:text="Professors"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/film_button"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/filmb"
-        android:text="Photographers"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:textColor="#fff"
-        android:background="@drawable/film_button"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/filmd"
+            android:text="Lawyers"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/film_button"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/filmc"
-        android:text="Professors"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:textColor="#fff"
-        android:background="@drawable/film_button"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content" />
-
-    <Button
-        
-        android:id="@+id/filmd"
-        android:text="Lawyers"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:textColor="#fff"
-        android:background="@drawable/film_button"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>

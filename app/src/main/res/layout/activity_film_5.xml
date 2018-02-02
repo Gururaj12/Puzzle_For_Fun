@@ -28,9 +28,10 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/filma"
+        android:id="@+id/film5a"
         android:text="Sara"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -40,9 +41,10 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/filmb"
+        android:id="@+id/film5b"
         android:text="Zara"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -52,9 +54,10 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/filmc"
+        android:id="@+id/film5c"
         android:text="Rhea"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -64,9 +67,10 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/filmd"
+        android:id="@+id/film5d"
         android:text="Mehnaz"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"

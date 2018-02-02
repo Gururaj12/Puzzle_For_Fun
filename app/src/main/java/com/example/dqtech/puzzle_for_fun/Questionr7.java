@@ -19,10 +19,11 @@ public class Questionr7 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questionr7);
-        question7a=(Button)findViewById(R.id.question1a);
-        question7b=(Button)findViewById(R.id.question1b);
-        question7c=(Button)findViewById(R.id.question1c);
-        question7d=(Button)findViewById(R.id.question1d);
+        question7a=(Button)findViewById(R.id.question7a);
+        question7b=(Button)findViewById(R.id.question7b);
+        question7c=(Button)findViewById(R.id.question7c);
+        question7d=(Button)findViewById(R.id.question7d);
+        question7d=(Button)findViewById(R.id.question7d);
 
         question7a.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,7 +44,7 @@ public class Questionr7 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i=new Intent(Questionr7.this,Questionr2.class);
+                Intent i=new Intent(Questionr7.this,CIFAIPC.class);
                 Toast.makeText(Questionr7.this, "Correct Answer", Toast.LENGTH_SHORT).show();
                 startActivity(i);
 

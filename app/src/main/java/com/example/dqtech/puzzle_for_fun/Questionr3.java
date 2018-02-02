@@ -19,10 +19,10 @@ public class Questionr3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questionr3);
-        question3a=(Button)findViewById(R.id.question1a);
-        question3b=(Button)findViewById(R.id.question1b);
-        question3c=(Button)findViewById(R.id.question1c);
-        question3d=(Button)findViewById(R.id.question1d);
+        question3a=(Button)findViewById(R.id.question3a);
+        question3b=(Button)findViewById(R.id.question3b);
+        question3c=(Button)findViewById(R.id.question3c);
+        question3d=(Button)findViewById(R.id.question3d);
 
         question3a.setOnClickListener(new View.OnClickListener() {
             @Override

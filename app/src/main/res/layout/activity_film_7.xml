@@ -28,9 +28,10 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/filma"
+        android:id="@+id/film7a"
         android:text="Mr India"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -40,9 +41,10 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/filmb"
+        android:id="@+id/film7b"
         android:text="Do Ankhen Barah Haath"
-        android:textSize="15dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -52,9 +54,10 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/filmc"
+        android:id="@+id/film7c"
         android:text="Dance Dance"
         android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -64,9 +67,10 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/filmd"
+        android:id="@+id/film7d"
         android:text="Tarzan"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"

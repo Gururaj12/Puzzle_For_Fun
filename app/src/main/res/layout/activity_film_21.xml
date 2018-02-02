@@ -30,7 +30,8 @@
     <Button
         android:id="@+id/film21a"
         android:text="  Bharatham  "
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -44,7 +45,8 @@
     <Button
         android:id="@+id/film21b"
         android:text=" Dhanam  "
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -56,7 +58,8 @@
     <Button
         android:id="@+id/film21c"
         android:text=" My Dear Kuttichathan"
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"
@@ -68,7 +71,8 @@
     <Button
         android:id="@+id/film21d"
         android:text="godfather "
-        android:textSize="25dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="@drawable/film_button"

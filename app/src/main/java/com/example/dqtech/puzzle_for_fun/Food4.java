@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 /**
  * Created by ADMIN on 1/25/2018.
@@ -40,7 +41,27 @@ public class Food4 extends AppCompatActivity {
 
         rg4.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+            public void onCheckedChanged(RadioGroup radioGroup, int Id) {
+
+
+                switch(Id){
+
+                    case R.id.rb4a:
+                        Toast.makeText(getApplicationContext(),"correct",Toast.LENGTH_LONG).show();
+                        break;
+
+                    case R.id.rb4b:
+                        Toast.makeText(getApplicationContext(),"wrong",Toast.LENGTH_LONG).show();
+                        break;
+
+                    case R.id.rb4c:
+                        Toast.makeText(getApplicationContext(),"wrong",Toast.LENGTH_LONG).show();
+                        break;
+
+
+
+                }
+
 
             }
         });
