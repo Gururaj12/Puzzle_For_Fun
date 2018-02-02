@@ -23,6 +23,7 @@ public class Digital10 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent f=new Intent(Digital10.this,MainActivity.class);
                 startActivity(f);
+                ///hgff
             }
         });
     }
