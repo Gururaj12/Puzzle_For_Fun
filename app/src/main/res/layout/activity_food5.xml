@@ -7,6 +7,22 @@
     android:orientation="vertical"
     android:background="@drawable/bb"
     tools:context="com.example.dqtech.puzzle_for_fun.Computer">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
     <TextView
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
@@ -69,5 +85,10 @@
 
 
     </RadioGroup>
+
+        </LinearLayout>
+
+
+    </ScrollView>
 
 </LinearLayout>

@@ -20,9 +20,9 @@ public class IQ_Test_5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iq__test_5);
 
-        testa5= (Button) findViewById(R.id.testa);
-        testb5= (Button) findViewById(R.id.testb);
-        testc5= (Button) findViewById(R.id.testc);
+        testa5= (Button) findViewById(R.id.test5a);
+        testb5= (Button) findViewById(R.id.test5b);
+        testc5= (Button) findViewById(R.id.test5c);
 
 
         testa5.setOnClickListener(new View.OnClickListener() {

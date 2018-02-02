@@ -9,6 +9,18 @@
     android:background="@drawable/iqback3"
     tools:context="com.example.dqtech.puzzle_for_fun.Questionr1">
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -30,6 +42,13 @@
 
 
 </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
 
     <Button
@@ -75,6 +94,13 @@
         android:layout_marginLeft="190dp"
         android:layout_width="150dp"
         android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
 
 
 

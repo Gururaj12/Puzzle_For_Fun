@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FlashScreen">
+        <activity android:name=".Food1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,6 +19,7 @@
         <activity android:name=".Login"></activity>
         <activity android:name=".Registration"></activity>
         <activity android:name=".Home"></activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".IQ_Test_1"></activity>
         <activity android:name=".IQ_Test_2"></activity>
         <activity android:name=".IQ_Test_3"></activity>
@@ -60,7 +61,16 @@
         <activity android:name=".Film_18"></activity>
         <activity android:name=".Film_19"></activity>
         <activity android:name=".Film_20"></activity>
-
+        <activity android:name=".FlashScreen"></activity>
+        <activity android:name=".Food2"></activity>
+        <activity android:name=".Food3"></activity>
+        <activity android:name=".Food4"></activity>
+        <activity android:name=".Food5"></activity>
+        <activity android:name=".Food6"></activity>
+        <activity android:name=".Food7"></activity>
+        <activity android:name=".Food8"></activity>
+        <activity android:name=".Food9"></activity>
+        <activity android:name=".Food10"></activity>
 
 
     </application>

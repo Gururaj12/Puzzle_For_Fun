@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/iqback3"
-    tools:context="com.example.dqtech.puzzle_for_fun.IQ_Text_6">
+    tools:context="com.example.dqtech.puzzle_for_fun.IQ_Test_6">
 
     <LinearLayout
         android:background="@drawable/outline"
