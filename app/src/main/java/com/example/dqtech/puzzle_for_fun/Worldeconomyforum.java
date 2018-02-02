@@ -31,7 +31,7 @@ public class Worldeconomyforum extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i=new Intent(Worldeconomyforum.this,ScoreboardActivity.class);
+                Intent i=new Intent(Worldeconomyforum.this,Home.class);
                 Toast.makeText(Worldeconomyforum.this, "Correct Answer", Toast.LENGTH_SHORT).show();
                 startActivity(i);
 

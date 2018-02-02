@@ -18,7 +18,7 @@ public class IQ_Test_6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_iq__text_6);
+        setContentView(R.layout.activity_iq__test_6);
 
 
         testa6= (Button) findViewById(R.id.test6a);

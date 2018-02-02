@@ -44,13 +44,9 @@ public class Questionr1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Toast newToast = Toast.makeText(getApplicationContext(), R.string.app_name, Toast.LENGTH_LONG);
-                newToast.setGravity(Gravity.CENTER, 0, 0);
-                LayoutInflater inflater = getLayoutInflater();
-                View tastyToast = inflater.inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.tastyLayout));
-                TextView toastText = (TextView) tastyToast.findViewById(R.id.textView1);
-                newToast.setView(tastyToast);
-                newToast.show();
+                Intent i=new Intent(Questionr1.this,Questionr2.class);
+                Toast.makeText(Questionr1.this, "Correct Answer", Toast.LENGTH_SHORT).show();
+                startActivity(i);
 
             }
         });
@@ -59,9 +55,14 @@ public class Questionr1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-               Intent i=new Intent(Questionr1.this,Questionr2.class);
-                Toast.makeText(Questionr1.this, "Correct Answer", Toast.LENGTH_SHORT).show();
-               startActivity(i);
+
+                Toast newToast = Toast.makeText(getApplicationContext(), R.string.app_name, Toast.LENGTH_LONG);
+                newToast.setGravity(Gravity.CENTER, 0, 0);
+                LayoutInflater inflater = getLayoutInflater();
+                View tastyToast = inflater.inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.tastyLayout));
+                TextView toastText = (TextView) tastyToast.findViewById(R.id.textView1);
+                newToast.setView(tastyToast);
+                newToast.show();
 
             }
         });
