@@ -18,7 +18,12 @@
         android:text="5. Which of the following is not an analog device?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rr15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <RadioButton
+        android:id="@+id/ry57"
 android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -28,6 +33,7 @@ android:textColor="#fff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry58"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -37,6 +43,7 @@ android:textColor="#fff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry59"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -47,6 +54,7 @@ android:textColor="#fff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry60"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -55,6 +63,7 @@ android:textColor="#fff"
         android:text="Audio microphone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    </RadioGroup>
     <Button
         android:id="@+id/n15"
         android:textSize="20dp"

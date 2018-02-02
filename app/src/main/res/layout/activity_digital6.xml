@@ -18,7 +18,12 @@
         android:text="6. Digital signals transmitted on a single conductor (and a ground) must be transmitted in:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rr16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <RadioButton
+        android:id="@+id/ry61"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -28,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry62"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -37,6 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry63"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -47,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry64"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -55,6 +63,7 @@
         android:text="serial."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    </RadioGroup>
     <Button
         android:id="@+id/n16"
         android:textSize="20dp"

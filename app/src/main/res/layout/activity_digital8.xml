@@ -18,7 +18,12 @@
         android:text="8. Which format requires fewer conductors?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rr18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <RadioButton
+        android:id="@+id/ry69"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -28,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry70"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -37,6 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry71"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -47,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry72"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -55,6 +63,7 @@
         android:text="Cannot tell"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    </RadioGroup>
     <Button
         android:id="@+id/n18"
         android:textSize="20dp"

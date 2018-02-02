@@ -18,7 +18,12 @@
         android:text="4. What are the symbols used to represent digits in the binary number system?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rr14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <RadioButton
+        android:id="@+id/ry53"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -28,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry54"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -37,6 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry55"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -47,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry56"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -55,6 +63,7 @@
         android:text="1,2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    </RadioGroup>
     <Button
         android:id="@+id/n14"
         android:textSize="20dp"

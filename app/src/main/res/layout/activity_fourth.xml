@@ -50,7 +50,7 @@ android:id="@+id/ry13"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
 
-        android:text="1000,000,000,000 bytes"
+        android:text="1,073,741,824 "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
