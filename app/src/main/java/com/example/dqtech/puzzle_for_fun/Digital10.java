@@ -21,7 +21,7 @@ public class Digital10 extends AppCompatActivity {
         b21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent f=new Intent(Digital10.this,MainActivity.class);
+                Intent f=new Intent(Digital10.this,Home.class);
                 startActivity(f);
                 ///hgff
             }

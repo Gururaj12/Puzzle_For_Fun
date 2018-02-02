@@ -49,7 +49,7 @@ public class Digital2 extends AppCompatActivity {
                 b2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent j = new Intent(Digital2.this, Second.class);
+                        Intent j = new Intent(Digital2.this, Digital3.class);
                         startActivity(j);
                     }
                 });
