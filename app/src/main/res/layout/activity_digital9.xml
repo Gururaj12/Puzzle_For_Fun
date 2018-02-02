@@ -18,7 +18,12 @@
         android:text="9. What kind of logic device or circuit is used to store information?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/rr19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <RadioButton
+        android:id="@+id/ry73"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -28,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry74"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -37,6 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry75"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -47,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry76"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -55,6 +63,7 @@
         android:text="Buffer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    </RadioGroup>
     <Button
         android:id="@+id/n19"
         android:textSize="20dp"

@@ -19,7 +19,13 @@
         android:text="2. Any number with an exponent of zero is equal to:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <RadioGroup
+        android:orientation="vertical"
+        android:id="@+id/rr12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <RadioButton
+      android:id="@+id/ry45"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -29,6 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry46"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -38,6 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry47"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -48,6 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RadioButton
+        android:id="@+id/ry48"
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:textSize="20dp"
@@ -57,6 +66,7 @@
         android:text="ten"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    </RadioGroup>
     <Button
         android:id="@+id/n12"
         android:textSize="20dp"
